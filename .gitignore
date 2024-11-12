@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Project specific
+uploads/
+logs/
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+instance/
+.webassets-cache
+
+# Qdrant
+qdrant_data/
+storage/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Security
+*.pem
+*.key
+*.crt
+*.cer
+
+# Azure/OpenAI
+azure_config.json
+openai_config.json
+
+# Documentation
+/site
+/docs/_build/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+build/
